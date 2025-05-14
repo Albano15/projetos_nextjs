@@ -1,0 +1,17 @@
+.white, .black {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.white {
+    background-color: #fff;
+}
+.black {
+    background-color: #000;
+}
+.white:hover, .black:hover {
+    filter: brightness(1.2);
+}

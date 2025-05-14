@@ -1,0 +1,15 @@
+.light, .dark {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s;
+}
+.light {
+    background-color: #f0d9b5;
+}
+.dark {
+    background-color: #b58863;
+}
+.light:hover, .dark:hover {
+    transform: scale(1.05);
+}
