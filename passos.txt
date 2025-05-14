@@ -1,0 +1,32 @@
+com node ativo:
+npx creat-next-app@Latest
+
+
+create-next-app@15.1.6
+Ok to proceed? (y)
+
+
+√ What is your project named? ... primeiro-app
+√ Would you like to use TypeScript? ... No / Yes --no
+√ Would you like to use ESLint? ... No / Yes --Yes
+√ Would you like to use Tailwind CSS? ... No / Yes --No
+√ Would you like your code inside a `src/` directory? ... No / Yes --No
+√ Would you like to use App Router? (recommended) ... No / Yes --yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes --no
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes --no
+
+
+cd primeiro-app
+npm run build
+npm run start
+
+////////////////////////////////////////////////////////////
+apaga tudo da página app/page.js e cola:
+export default function Page(){
+    return (
+        <div>
+            <h1>Titulo</h1>
+            <p>TESSTE</p>
+        </div>
+    )
+}
