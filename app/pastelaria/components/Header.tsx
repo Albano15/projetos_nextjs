@@ -4,7 +4,13 @@ import styles from '../styles/Header.module.css';
 export default function Header() {
     return (
         <header className={styles.header}>
-            <Image src="/images/logo.svg" alt="Pastelaria do Seu Zé" width={200} height={50} />
+            <Image
+                src="/images/logo.png"
+                alt="Pastelaria do Seu Zé"
+                width={300}
+                height={60}
+                priority
+            />
         </header>
     );
 }

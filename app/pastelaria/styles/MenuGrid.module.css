@@ -1,0 +1,26 @@
+.grid-wrapper {
+    background-color: var(--bg-principal);
+    border-radius: var(--raio-borda);
+    padding: 2rem;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--gap-grid);
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

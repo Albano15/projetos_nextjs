@@ -1,7 +1,8 @@
-import Header from '../components/Header';
-import MenuGrid from '../components/MenuGrid';
-import Footer from '../components/Footer';
-import menu from '../data/menu';
+'use client';
+
+import Header from './components/Header';
+import MenuGrid from './components/MenuGrid';
+import menu from './data/menu';
 
 export default function HomePage() {
     return (
@@ -10,7 +11,6 @@ export default function HomePage() {
             <main>
                 <MenuGrid items={menu} />
             </main>
-            <Footer />
         </>
     );
 }

@@ -1,0 +1,17 @@
+.header {
+    background-color: var(--bg-principal);
+    border: 2px solid var(--cor-detalhe);
+    border-radius: var(--raio-borda);
+    width: 90%;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}

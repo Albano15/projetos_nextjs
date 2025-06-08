@@ -5,10 +5,12 @@ type Item = { id: number; name: string; image: string; price: string };
 
 export default function MenuGrid({ items }: { items: Item[] }) {
     return (
-        <section className={styles.grid}>
-            {items.map(item => (
-                <MenuItem key={item.id} {...item} />
-            ))}
+        <section className={styles['grid-wrapper']}>
+            <div className={styles.grid}>
+                {items.map(item => (
+                    <MenuItem key={item.id} {...item} />
+                ))}
+            </div>
         </section>
     );
 }
