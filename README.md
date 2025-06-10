@@ -31,13 +31,16 @@ Abra o navegador e acesse: http://localhost:3000
 
 como acessar cada projeto individualmente::
 
-📂 Projetos disponíveis
+📂 Projetos disponíveis:
+
 🔢 Calculadora
 Caminho: /calculadora
 
 Descrição: Calculadora funcional com operações básicas.
 
 📍 Acesse: http://localhost:3000/calculadora
+
+######################################################
 
 ♟️ Jogo de Damas
 Caminho: /jogo_damas
@@ -46,6 +49,8 @@ Descrição: Jogo de damas com interface interativa para dois jogadores.
 
 📍 Acesse: http://localhost:3000/jogo_damas
 
+######################################################
+
 🥟 Pastelaria
 Caminho: /pastelaria
 
@@ -53,3 +58,11 @@ Descrição: Simulador de pedidos para uma pastelaria. Inclui seleção de sabor
 
 📍 Acesse: http://localhost:3000/pastelaria
 
+######################################################
+
+🦸‍♂️ Herói e Vilão
+Caminho: /heroi_vilao
+
+Descrição: Jogo interativo de batalha entre herói e vilão com mecânicas personalizadas.
+📍
+Acesse: http://localhost:3000/heroi_vilao
