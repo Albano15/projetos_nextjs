@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Heroi from './Heroi';
 import Vilao from './Vilao';
-import styles from '../styles/Batalha.module.css';
+import styles from "../styles/Batalha.module.css";
 
 export default function Batalha() {
     const [vidaHeroi, setVidaHeroi] = useState(100);
