@@ -1,0 +1,51 @@
+/* Mesmo conteúdo de Heroi.module.css, mas com cores diferentes */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--sombra);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 3px solid var(--cor-vilao);
+}
+
+.avatarImg {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    width: 100%;
+    height: 1.2rem;
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.filho {
+    height: 100%;
+    background: var(--cor-vilao);
+    transition: width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
