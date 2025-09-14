@@ -14,18 +14,22 @@ Antes de executar os projetos, certifique-se de que você tem o seguinte instala
 Clone o repositório e instale as dependências:
 
 ## bash
+
 git clone https://github.com/Albano15/projetos_nextjs.git
 cd projetos_nextjs
 npm install
+
 # ou
+
 yarn install
 Depois, inicie o servidor de desenvolvimento:
 
 ## bash
-Copiar
-Editar
+
 npm run dev
+
 # ou
+
 yarn dev
 Abra o navegador e acesse: http://localhost:3000
 
